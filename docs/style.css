@@ -82,7 +82,7 @@ nav ul li a:hover {
 
 #home .text-overlay {
     position: absolute;
-    top: 50%;
+    top: 350px;
     left: 50%;
     transform: translate(-50%, -50%); 
     color: white;
@@ -357,7 +357,10 @@ input[type="submit"]:visited {
         flex-direction: row;
         align-items: flex-start;
     }
-
+    .position-relative{
+        position: absolute;
+        top: 200px;
+    }
     .contact-info,
     .form {
         width: 50%;
